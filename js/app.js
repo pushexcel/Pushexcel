@@ -308,6 +308,18 @@
     return { total: ls.length, done: nd, first: ls[0] };
   }
 
+  var LAT = {paket: 24, soal: 295, pemula: 6, menengah: 9, lanjutan: 9};
+  var HOME_GROUPS = [
+    { judul: 'Dasar-dasar', ket: 'Mulai dari sini bila kamu baru memakai Excel.', from: 0, to: 4 },
+    { judul: 'Fungsi menurut kebutuhan', ket: 'Pilih sesuai pekerjaan: teks, pencarian data, tanggal, hitungan, dan keuangan.', from: 4, to: 10 },
+    { judul: 'Otomatisasi dan praktik', ket: 'Macro, VBA, dan studi kasus pekerjaan kantor.', from: 10, to: 99 }
+  ];
+  function catRow(c) {
+    var p = catProgress(c);
+    return '<a class="catrow' + (p.total && p.done === p.total ? ' full' : '') + '" href="#/kategori/' + c.id + '"><span class="col" aria-hidden="true">' + XL.numToCol(cats.indexOf(c) + 1) + '</span><span class="ct"><strong>' + esc(c.nama) + '</strong><span class="d">' + esc(c.ket) +
+      '</span><span class="bar" aria-hidden="true"><i style="width:' + (p.total ? Math.round(p.done / p.total * 100) : 0) + '%"></i></span></span><span class="cnt">' + p.done + ' dari ' + p.total + '<small>selesai</small></span></a>';
+  }
+
   function viewHome() {
     setTitle('');
     var last = store.get('be_last', null), nextL = null;
@@ -323,13 +335,19 @@
       '<a class="btn ghost" href="#/lab">Buka lab rumus</a></div>' +
       '<p class="statline"><span><b>' + lessons.length + '</b> materi</span><span><b>' + totalImgs + '</b> tangkapan layar</span><span><b>' + XL.functions.length + '</b> fungsi bisa dicoba</span><span><b>' + done.size + '</b> selesai</span></p>' +
       '</div><div id="heroSheet"></div></section>' +
-      '<h2>Pilih topik</h2><div class="catlist">' +
-      cats.map(function (c) {
-        var p = catProgress(c);
-        return '<a class="catrow' + (p.total && p.done === p.total ? ' full' : '') + '" href="#/kategori/' + c.id + '"><span class="col" aria-hidden="true">' + XL.numToCol(cats.indexOf(c) + 1) + '</span><span class="ct"><strong>' + esc(c.nama) + '</strong><span class="d">' + esc(c.ket) +
-          '</span><span class="bar" aria-hidden="true"><i style="width:' + (p.total ? Math.round(p.done / p.total * 100) : 0) + '%"></i></span></span><span class="cnt">' + p.done + ' dari ' + p.total + '<small>selesai</small></span></a>';
-      }).join('') + '</div>' +
-      '<h2>Latihan administrasi</h2><div class="catlist"><a class="catrow" href="latihan.html"><span class="col" aria-hidden="true">+</span><span class="ct"><strong>Latihan administrasi perkantoran</strong><span class="d">Soal absensi, stok, gaji, faktur, komisi sales, PPDB, sampai laporan laba rugi. Unduh file Excel atau CSV, lalu cocokkan dengan kunci.</span></span><span class="cnt">24 paket<small>295 soal</small></span></a></div>';
+      '<section class="path" aria-labelledby="pathH"><h2 class="sr" id="pathH">Cara belajar</h2><ol class="path-list">' +
+      '<li><a href="#/materi/' + primary.id + '"><span class="n">1</span><b>Pelajari materi</b><span class="t">' + lessons.length + ' materi dengan lembar kerja mini dan langkah praktik.</span></a></li>' +
+      '<li><a href="#/lab"><span class="n">2</span><b>Coba di lab rumus</b><span class="t">Ketik rumus sendiri dan lihat hasilnya langsung.</span></a></li>' +
+      '<li><a href="latihan.html"><span class="n">3</span><b>Kerjakan latihan</b><span class="t">' + LAT.paket + ' paket soal admin, bisa diunduh sebagai Excel atau CSV.</span></a></li></ol></section>' +
+      HOME_GROUPS.map(function (g) {
+        var list = cats.slice(g.from, g.to);
+        if (!list.length) return '';
+        return '<div class="grp"><h2>' + g.judul + '</h2><p>' + g.ket + '</p></div><div class="catlist">' + list.map(catRow).join('') + '</div>';
+      }).join('') +
+      '<section class="latbanner" aria-labelledby="latH"><div><h2 id="latH">Latihan administrasi perkantoran</h2>' +
+      '<p>' + LAT.paket + ' paket soal dari pekerjaan admin sehari-hari, total ' + LAT.soal + ' soal. Unduh file Excel atau CSV, kerjakan dengan rumus, lalu cocokkan dengan kunci.</p>' +
+      '<ul class="levels"><li><b>' + LAT.pemula + '</b> Pemula</li><li><b>' + LAT.menengah + '</b> Menengah</li><li><b>' + LAT.lanjutan + '</b> Lanjutan</li></ul></div>' +
+      '<a class="btn" href="latihan.html">Lihat semua latihan</a></section>';
     mountSheet($('#heroSheet'), {
       data: [['Barang', 'Harga', 'Jumlah'], ['Pensil', 3000, 5], ['Buku', 8000, 3], ['Penggaris', 5000, 2]],
       sel: 'D2', rumus: '=B2*C2',

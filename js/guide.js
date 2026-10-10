@@ -162,10 +162,17 @@
     if (k === 'galeri') return say({ html: 'Klik gambar mana saja untuk memperbesar, lalu geser dengan tombol panah di keyboard.', ttl: 8000, key: 'galeri' });
   }
 
+  var welcomeT = 0;
   function home() {
     if (!S.name && !S.asked) {
-      S.asked = true; save();
-      return say({ html: 'Hai! Aku <b>' + esc(GUIDE.nama) + '</b>, pemandu belajarmu di PushExcel. Siapa namamu?', input: true, key: 'welcome' });
+      if (welcomeT) return;
+      welcomeT = setTimeout(function () {
+        welcomeT = 0;
+        if (S.name || S.asked || R.name !== 'home') return;
+        S.asked = true; save();
+        say({ html: 'Hai! Aku <b>' + esc(GUIDE.nama) + '</b>, pemandu belajarmu di PushExcel. Siapa namamu?', input: true, key: 'welcome' });
+      }, 7000);
+      return;
     }
     var d = doneSet(), n = d.size, nx = nextUndone(), acts = [];
     var t = salam() + nm() + '! ';
