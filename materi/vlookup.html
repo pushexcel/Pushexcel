@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0A5530">
+<title>VLOOKUP: mencari data ke bawah | PushExcel</title>
+<meta name="description" content="VLOOKUP mencari sebuah nilai di kolom pertama sebuah tabel, lalu mengambil data dari kolom lain di baris yang sama.">
+
+<meta property="og:type" content="website"><meta property="og:site_name" content="PushExcel"><meta property="og:locale" content="id_ID"><meta property="og:title" content="VLOOKUP: mencari data ke bawah | PushExcel"><meta property="og:description" content="VLOOKUP mencari sebuah nilai di kolom pertama sebuah tabel, lalu mengambil data dari kolom lain di baris yang sama."><meta property="og:url" content="https://pushexcel.github.io/Pushexcel/materi/vlookup.html"><link rel="canonical" href="https://pushexcel.github.io/Pushexcel/materi/vlookup.html"><link rel="stylesheet" href="../css/style.css">
+<style>.doc{max-width:70ch;margin:0 auto;padding:1.5rem 1rem 2rem}.doc h1{margin-top:0}.doc h2{margin-top:1.6rem;font-size:1.2rem}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9586766041057399" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="top top-static"><a class="brand" href="../index.html" aria-label="PushExcel, ke beranda"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="4"/><path d="M6 11h20M6 17h20M6 23h20M13 6v20M20 6v20"/></svg><span>Push<b>Excel</b></span></a><nav class="toplinks" aria-label="Menu utama"><a href="../index.html">Materi</a><a href="../latihan.html">Latihan</a><a href="../index.html#/lab">Lab rumus</a><a href="../index.html#/kuis">Kuis</a><a href="../index.html#/galeri">Galeri</a></nav></header>
+<main class="doc">
+<nav class="crumbs" aria-label="Jejak halaman"><a href="../index.html">Beranda</a> / Pencarian &amp; Referensi</nav>
+<h1>VLOOKUP: mencari data ke bawah</h1>
+<p class="lead">VLOOKUP mencari sebuah nilai di kolom pertama sebuah tabel, lalu mengambil data dari kolom lain di baris yang sama.</p>
+<div class="syntax"><pre>=VLOOKUP(dicari; tabel; kolom_ke; [persis])</pre></div>
+<table class="args"><tbody><tr><th scope="row">dicari</th><td>Nilai yang dicari, harus ada di kolom pertama tabel</td></tr><tr><th scope="row">tabel</th><td>Seluruh tabel, kunci dengan $</td></tr><tr><th scope="row">kolom_ke</th><td>Nomor kolom yang diambil, dihitung dari kolom pertama tabel</td></tr><tr><th scope="row">persis</th><td>FALSE = harus sama persis; TRUE atau kosong = perkiraan terdekat (tabel harus terurut)</td></tr></tbody></table>
+<h2>Langkah praktik</h2><ol><li>Pastikan nilai kunci ada di kolom paling kiri tabel.</li><li>Ketik =VLOOKUP( lalu klik sel kunci.</li><li>Blok tabel dan tekan F4 agar menjadi $A$2:$C$5.</li><li>Isi nomor kolom, lalu FALSE untuk pencarian persis. Tekan Enter.</li></ol>
+<h2>Tips</h2><div class="tips"><p>Hampir selalu pakai FALSE kecuali sedang mencari rentang nilai.</p><p>#N/A berarti kunci tidak ditemukan. Periksa spasi tersembunyi atau beda format.</p></div>
+<h2>Tangkapan layar praktik</h2><p><img loading="lazy" decoding="async" width="300" height="256" src="../images/g-1-vlookup-300x256.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 1"></p>
+<p><img loading="lazy" decoding="async" width="300" height="168" src="../images/g-2-argumentvlookup-300x168.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 2"></p>
+<p><img loading="lazy" decoding="async" width="624" height="342" src="../images/rumus-vlookup-excel.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 3"></p>
+<p><img loading="lazy" decoding="async" width="300" height="160" src="../images/tabel-harga-300x160.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 4"></p>
+<p><img loading="lazy" decoding="async" width="300" height="180" src="../images/vlookup-laporan-1-300x180.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 5"></p>
+<p><img loading="lazy" decoding="async" width="265" height="269" src="../images/vlookup-laporan-2.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 6"></p>
+<p><img loading="lazy" decoding="async" width="259" height="196" src="../images/vlookup-laporan-3.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 7"></p>
+<p><img loading="lazy" decoding="async" width="300" height="124" src="../images/vlookup-laporan-4-300x124.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 8"></p>
+<p><img loading="lazy" decoding="async" width="300" height="109" src="../images/vlookup-laporan-5-300x109.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 9"></p>
+<p><img loading="lazy" decoding="async" width="300" height="110" src="../images/vlookup-laporan-6-300x110.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 10"></p>
+<p><img loading="lazy" decoding="async" width="300" height="94" src="../images/vlookup-laporan-7-300x94.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 11"></p>
+<p><img loading="lazy" decoding="async" width="300" height="94" src="../images/vlookup-laporan-8-300x94.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 12"></p>
+<p><img loading="lazy" decoding="async" width="300" height="95" src="../images/vlookup-laporan-9-300x95.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 13"></p>
+<p><img loading="lazy" decoding="async" width="300" height="107" src="../images/vlookup-laporan-menggunakan-auto-fill-300x107.jpg" alt="Tangkapan layar praktik VLOOKUP, gambar 14"></p>
+<p><a class="btn" href="../#/materi/vlookup">Coba interaktif dan kerjakan kuis</a></p>
+<nav class="pn" style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap"><a href="terbilang.html">&larr; Angka terbilang di Excel</a><a href="hlookup.html">HLOOKUP &rarr;</a></nav>
+</main>
+<footer class="foot"><p><a href="../index.html">Beranda</a> · <a href="../latihan.html">Latihan</a> · <a href="../tentang.html">Tentang</a> · <a href="../kontak.html">Kontak</a> · <a href="../privasi.html">Kebijakan Privasi</a> · <a href="../syarat.html">Syarat</a></p></footer>
+</body>
+</html>

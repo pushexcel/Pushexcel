@@ -1,0 +1,37 @@
+﻿No,Tanggal,Keterangan,Kategori,Penerimaan,Pengeluaran
+1,2026-10-01,Pengisian kas dari kantor pusat,Penerimaan,3000000,
+2,2026-10-01,Kopi dan gula,Konsumsi,,135000
+3,2026-10-05,Kopi dan gula,Konsumsi,,80000
+4,2026-10-05,Snack rapat,Konsumsi,,110000
+5,2026-10-06,Ongkos kirim dokumen,Transportasi,,40000
+6,2026-10-06,Ongkos kirim dokumen,Transportasi,,15000
+7,2026-10-07,Perbaikan AC,Lain-lain,,595000
+8,2026-10-08,Token listrik,Listrik dan Air,,260000
+9,2026-10-08,Materai,ATK,,70000
+10,2026-10-11,Fotokopi dokumen,ATK,,40000
+11,2026-10-12,Pengisian kas dari kantor pusat,Penerimaan,2500000,
+12,2026-10-12,Snack rapat,Konsumsi,,85000
+13,2026-10-13,Bensin kendaraan operasional,Transportasi,,115000
+14,2026-10-13,Fotokopi dokumen,ATK,,100000
+15,2026-10-13,Parkir dan tol,Transportasi,,40000
+16,2026-10-15,Air galon,Konsumsi,,90000
+17,2026-10-15,Materai,ATK,,90000
+18,2026-10-16,Perbaikan AC,Lain-lain,,515000
+19,2026-10-17,Kertas dan tinta,ATK,,150000
+20,2026-10-18,Snack rapat,Konsumsi,,265000
+21,2026-10-18,Kebersihan kantor,Lain-lain,,250000
+22,2026-10-18,Iuran air,Listrik dan Air,,110000
+23,2026-10-18,Bensin kendaraan operasional,Transportasi,,120000
+24,2026-10-19,Fotokopi dokumen,ATK,,75000
+25,2026-10-20,Ongkos kirim dokumen,Transportasi,,35000
+26,2026-10-21,Air galon,Konsumsi,,75000
+27,2026-10-22,Pengisian kas dari kantor pusat,Penerimaan,2000000,
+28,2026-10-22,Parkir dan tol,Transportasi,,45000
+29,2026-10-22,Kertas dan tinta,ATK,,395000
+30,2026-10-24,Kopi dan gula,Konsumsi,,60000
+31,2026-10-25,Kertas dan tinta,ATK,,195000
+32,2026-10-25,Perbaikan AC,Lain-lain,,500000
+33,2026-10-26,Kertas dan tinta,ATK,,300000
+34,2026-10-27,Materai,ATK,,55000
+35,2026-10-27,Materai,ATK,,75000
+36,2026-10-28,Parkir dan tol,Transportasi,,25000

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="c"><circle cx="100" cy="100" r="100"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE48A"/><stop offset="1" stop-color="#8FD3AB"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="200" height="200" fill="url(#bg)"/>
+    <path d="M0 50H200M0 100H200M0 150H200M50 0V200M100 0V200M150 0V200" stroke="#fff" stroke-opacity=".4" stroke-width="1.5"/>
+    <!-- rambut belakang -->
+    <path d="M50 100C46 50 72 30 102 30s56 20 50 70c-2 24 4 42 10 56H40c6-14 12-32 10-56z" fill="#2A1A16"/>
+    <!-- blazer -->
+    <path d="M28 205c2-42 30-62 72-62s70 20 72 62z" fill="#0E7A43"/>
+    <path d="M84 146l16 34 16-34z" fill="#fff"/>
+    <path d="M84 146l-16 18 26 28-10-46zM116 146l16 18-26 28 10-46z" fill="#0A5530"/>
+    <!-- leher -->
+    <path d="M87 120h26v28c-8 8-18 8-26 0z" fill="#E7AE88"/>
+    <!-- wajah -->
+    <ellipse cx="100" cy="94" rx="35" ry="40" fill="#F2C09B"/>
+    <ellipse cx="65.500" cy="98" rx="5" ry="8" fill="#EDB48C"/>
+    <ellipse cx="134.500" cy="98" rx="5" ry="8" fill="#EDB48C"/>
+    <!-- poni -->
+    <path d="M64 88C64 58 82 46 102 46s38 12 36 42c-6-16-18-28-36-28-16 0-30 10-38 28z" fill="#2A1A16"/>
+    <path d="M64 88c4-8 8-12 14-16-2 10-6 20-6 30-4-4-8-8-8-14z" fill="#2A1A16"/>
+    <!-- kacamata -->
+    <g fill="#fff" fill-opacity=".25" stroke="#1B2A27" stroke-width="3">
+      <circle cx="85" cy="96" r="12"/><circle cx="115" cy="96" r="12"/>
+    </g>
+    <path d="M97 95q3-3 6 0" stroke="#1B2A27" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- mata -->
+    <circle cx="85" cy="97" r="3.400" fill="#1B2A27"/><circle cx="115" cy="97" r="3.400" fill="#1B2A27"/>
+    <circle cx="86.200" cy="95.800" r="1" fill="#fff"/><circle cx="116.200" cy="95.800" r="1" fill="#fff"/>
+    <!-- alis -->
+    <path d="M75 78q10-6 20 0M105 78q10-6 20 0" stroke="#2A1A16" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- hidung, pipi, senyum -->
+    <path d="M100 103q-2 6 1 8" stroke="#D49872" stroke-width="2.200" fill="none" stroke-linecap="round"/>
+    <circle cx="74" cy="112" r="6" fill="#F28B82" fill-opacity=".35"/><circle cx="126" cy="112" r="6" fill="#F28B82" fill-opacity=".35"/>
+    <path d="M87 118q13 12 26 0" stroke="#9A3F31" stroke-width="3.400" fill="none" stroke-linecap="round"/>
+    <!-- pin kartu nama -->
+    <rect x="124" y="156" width="22" height="12" rx="2" fill="#FFD84D"/>
+    <path d="M128 160h14M128 164h9" stroke="#3A2E00" stroke-width="1.600" stroke-linecap="round"/>
+  </g>
+  <circle cx="100" cy="100" r="98.500" fill="none" stroke="#0A5530" stroke-opacity=".25" stroke-width="3"/>
+</svg>

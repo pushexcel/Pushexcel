@@ -1,0 +1,12 @@
+﻿Kode Akun,Nama Akun,Kelompok
+4101,Penjualan Barang,Pendapatan
+4102,Pendapatan Jasa,Pendapatan
+4103,Retur Penjualan,Pendapatan
+5101,Pembelian Barang Dagang,HPP
+5102,Biaya Angkut Pembelian,HPP
+6101,Beban Gaji,Beban
+6102,Beban Sewa,Beban
+6103,Beban Listrik dan Air,Beban
+6104,Beban Transportasi,Beban
+6105,Beban Perlengkapan,Beban
+6106,Beban Penyusutan,Beban

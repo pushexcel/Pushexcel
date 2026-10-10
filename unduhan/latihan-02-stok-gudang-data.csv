@@ -1,0 +1,26 @@
+﻿Kode Barang,Nama Barang,Satuan,Stok Awal,Barang Masuk,Barang Keluar,Harga Satuan,Stok Minimum
+ATK-001,Kertas HVS A4 80 gr,Rim,33,0,11,52000,12
+ATK-002,Kertas HVS F4 80 gr,Rim,27,0,23,58000,15
+ATK-003,Pulpen Hitam,Lusin,50,30,73,24000,5
+ATK-004,Pulpen Biru,Lusin,35,0,30,24000,8
+ATK-005,Pensil 2B,Lusin,19,20,29,18000,5
+ATK-006,Penghapus,Buah,20,20,22,3000,10
+ATK-007,Spidol Whiteboard,Buah,60,20,40,9000,8
+ATK-008,Spidol Permanen,Buah,48,0,38,8000,10
+ATK-009,Stapler Kecil,Buah,11,20,18,22000,15
+ATK-010,Isi Staples No. 10,Kotak,15,0,8,5000,10
+ATK-011,Map Plastik,Buah,54,0,19,4000,10
+ATK-012,Ordner Folio,Buah,42,20,39,28000,5
+ATK-013,Amplop Coklat Folio,Pak,25,10,13,32000,8
+ATK-014,Lakban Bening,Roll,55,20,46,11000,12
+ATK-015,Buku Folio 100 Lembar,Buah,22,0,11,14000,5
+KBR-001,Cairan Pel Lantai,Botol,36,0,30,16000,12
+KBR-002,Sabun Cuci Tangan,Botol,50,20,43,18000,8
+KBR-003,Tisu Wajah,Kotak,59,30,56,13000,15
+KBR-004,Kantong Sampah Besar,Pak,16,0,8,12000,15
+KBR-005,Pengharum Ruangan,Kaleng,60,30,67,20000,10
+ELK-001,Baterai AA,Pak,32,30,41,22000,5
+ELK-002,Flashdisk 32 GB,Buah,16,30,29,65000,8
+ELK-003,Mouse Kabel,Buah,8,20,12,45000,5
+ELK-004,Kabel LAN 5 meter,Buah,41,30,50,25000,15
+ELK-005,Kalkulator 12 Digit,Buah,39,0,35,70000,5

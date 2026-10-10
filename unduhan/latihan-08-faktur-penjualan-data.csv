@@ -1,0 +1,31 @@
+﻿No Faktur,Tanggal,Pelanggan,Kode Barang,Jumlah,Metode Bayar
+INV-2610-001,2026-10-01,Kedai Pak Joko,BRG-03,32,Transfer
+INV-2610-002,2026-10-01,Kantin Sekolah,BRG-01,30,Tunai
+INV-2610-003,2026-10-01,Koperasi Sejahtera,BRG-03,33,Tunai
+INV-2610-004,2026-10-02,Warung Bu Siti,BRG-04,30,Transfer
+INV-2610-005,2026-10-03,Warung Bu Siti,BRG-04,26,Tunai
+INV-2610-006,2026-10-05,Warung Bu Siti,BRG-03,4,Transfer
+INV-2610-007,2026-10-05,Rumah Makan Selera,BRG-02,32,Transfer
+INV-2610-008,2026-10-07,Toko Barokah,BRG-02,26,Tunai
+INV-2610-009,2026-10-07,Koperasi Sejahtera,BRG-02,32,Transfer
+INV-2610-010,2026-10-08,Kedai Pak Joko,BRG-04,17,Transfer
+INV-2610-011,2026-10-08,Warung Bu Siti,BRG-02,6,Tunai
+INV-2610-012,2026-10-09,Koperasi Sejahtera,BRG-02,34,Tunai
+INV-2610-013,2026-10-09,Katering Dapur Ibu,BRG-04,36,Tunai
+INV-2610-014,2026-10-09,Rumah Makan Selera,BRG-06,33,Tunai
+INV-2610-015,2026-10-09,Toko Barokah,BRG-02,4,Tunai
+INV-2610-016,2026-10-09,Kantin Sekolah,BRG-03,9,Transfer
+INV-2610-017,2026-10-09,Koperasi Sejahtera,BRG-05,9,Transfer
+INV-2610-018,2026-10-10,Mini Market Rezeki,BRG-05,29,Tunai
+INV-2610-019,2026-10-11,Katering Dapur Ibu,BRG-01,2,Tunai
+INV-2610-020,2026-10-11,Toko Barokah,BRG-03,6,Transfer
+INV-2610-021,2026-10-13,Warung Bu Siti,BRG-05,20,Transfer
+INV-2610-022,2026-10-13,Kantin Sekolah,BRG-05,6,Transfer
+INV-2610-023,2026-10-13,Kantin Sekolah,BRG-01,13,Transfer
+INV-2610-024,2026-10-13,Kedai Pak Joko,BRG-05,22,Tunai
+INV-2610-025,2026-10-13,Toko Barokah,BRG-03,37,Transfer
+INV-2610-026,2026-10-14,Toko Barokah,BRG-06,7,Transfer
+INV-2610-027,2026-10-15,Kantin Sekolah,BRG-01,28,Transfer
+INV-2610-028,2026-10-15,Kedai Pak Joko,BRG-06,40,Transfer
+INV-2610-029,2026-10-17,Mini Market Rezeki,BRG-06,20,Transfer
+INV-2610-030,2026-10-19,Warung Bu Siti,BRG-01,29,Tunai

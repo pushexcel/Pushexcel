@@ -1,0 +1,49 @@
+﻿No,Tanggal,No. Bukti,Kode Akun,Keterangan,Debit,Kredit
+1,2026-07-04,JU-001,4101,Penjualan barang ke pelanggan,,87500000
+2,2026-07-04,JU-002,6103,Pembayaran listrik dan air,2500000,
+3,2026-07-05,JU-003,5102,Biaya angkut pembelian,2000000,
+4,2026-07-05,JU-004,6102,Pembayaran sewa kantor,6000000,
+5,2026-07-06,JU-005,6104,Biaya transportasi dinas,500000,
+6,2026-07-08,JU-006,4101,Penjualan barang ke pelanggan,,80500000
+7,2026-07-09,JU-007,5101,Pembelian barang dagang dari pemasok,36500000,
+8,2026-07-17,JU-008,5101,Pembelian barang dagang dari pemasok,35000000,
+9,2026-07-19,JU-009,4103,Retur penjualan dari pelanggan,1000000,
+10,2026-07-21,JU-010,6104,Biaya transportasi dinas,1000000,
+11,2026-07-23,JU-011,6105,Pembelian perlengkapan kantor,1500000,
+12,2026-07-25,JU-012,6101,Pembayaran gaji karyawan,29000000,
+13,2026-07-26,JU-013,5101,Pembelian barang dagang dari pemasok,39000000,
+14,2026-07-28,JU-014,4101,Penjualan barang ke pelanggan,,63500000
+15,2026-07-28,JU-015,4102,Pendapatan jasa pemasangan,,19000000
+16,2026-07-28,JU-016,6106,Penyusutan aset bulan berjalan,2500000,
+17,2026-08-03,JU-017,5101,Pembelian barang dagang dari pemasok,37500000,
+18,2026-08-04,JU-018,6103,Pembayaran listrik dan air,2000000,
+19,2026-08-05,JU-019,6102,Pembayaran sewa kantor,6000000,
+20,2026-08-05,JU-020,6105,Pembelian perlengkapan kantor,1500000,
+21,2026-08-07,JU-021,6104,Biaya transportasi dinas,500000,
+22,2026-08-12,JU-022,4101,Penjualan barang ke pelanggan,,41500000
+23,2026-08-15,JU-023,5102,Biaya angkut pembelian,3000000,
+24,2026-08-18,JU-024,5101,Pembelian barang dagang dari pemasok,30000000,
+25,2026-08-18,JU-025,6104,Biaya transportasi dinas,500000,
+26,2026-08-21,JU-026,5101,Pembelian barang dagang dari pemasok,45500000,
+27,2026-08-22,JU-027,4102,Pendapatan jasa pemasangan,,9000000
+28,2026-08-24,JU-028,4102,Pendapatan jasa pemasangan,,18000000
+29,2026-08-25,JU-029,6101,Pembayaran gaji karyawan,28000000,
+30,2026-08-26,JU-030,4101,Penjualan barang ke pelanggan,,64500000
+31,2026-08-28,JU-031,4101,Penjualan barang ke pelanggan,,82500000
+32,2026-08-28,JU-032,6106,Penyusutan aset bulan berjalan,2500000,
+33,2026-09-01,JU-033,6105,Pembelian perlengkapan kantor,500000,
+34,2026-09-04,JU-034,4101,Penjualan barang ke pelanggan,,79500000
+35,2026-09-05,JU-035,4101,Penjualan barang ke pelanggan,,55000000
+36,2026-09-05,JU-036,5101,Pembelian barang dagang dari pemasok,39500000,
+37,2026-09-05,JU-037,6102,Pembayaran sewa kantor,6000000,
+38,2026-09-06,JU-038,4103,Retur penjualan dari pelanggan,4500000,
+39,2026-09-07,JU-039,5101,Pembelian barang dagang dari pemasok,43500000,
+40,2026-09-12,JU-040,6103,Pembayaran listrik dan air,1500000,
+41,2026-09-14,JU-041,5101,Pembelian barang dagang dari pemasok,34000000,
+42,2026-09-19,JU-042,6104,Biaya transportasi dinas,2000000,
+43,2026-09-22,JU-043,4101,Penjualan barang ke pelanggan,,54500000
+44,2026-09-22,JU-044,6104,Biaya transportasi dinas,2000000,
+45,2026-09-25,JU-045,4102,Pendapatan jasa pemasangan,,12000000
+46,2026-09-25,JU-046,6101,Pembayaran gaji karyawan,28500000,
+47,2026-09-28,JU-047,5102,Biaya angkut pembelian,3000000,
+48,2026-09-28,JU-048,6106,Penyusutan aset bulan berjalan,2500000,

@@ -1,0 +1,25 @@
+﻿No,Kode,Pos Biaya,Departemen,Anggaran,Realisasi
+1,B-01,Kemasan,Produksi,48500000,35000000
+2,B-02,Asuransi,Keuangan,42000000,37200000
+3,B-03,Pameran dagang,Pemasaran,37000000,35100000
+4,B-04,Iklan digital,Pemasaran,8500000,8700000
+5,B-05,Sampel produk,Pemasaran,25000000,23900000
+6,B-06,Konsumsi rapat,Umum,37500000,44900000
+7,B-07,Kebersihan kantor,Umum,39000000,37000000
+8,B-08,Bahan baku,Produksi,14000000,15000000
+9,B-09,Jasa audit,Keuangan,41500000,38000000
+10,B-10,Transportasi sales,Pemasaran,56000000,63900000
+11,B-11,Perlengkapan kantor,Umum,38000000,45300000
+12,B-12,Upah borongan,Produksi,17500000,16900000
+13,B-13,Brosur dan spanduk,Pemasaran,29000000,22300000
+14,B-14,Pemeliharaan gedung,Umum,8500000,7900000
+15,B-15,Biaya notaris,Keuangan,5000000,3900000
+16,B-16,Hadiah pelanggan,Pemasaran,32000000,37600000
+17,B-17,Listrik dan air,Umum,27500000,15600000
+18,B-18,Telepon dan internet,Umum,47500000,34000000
+19,B-19,Bahan bakar,Produksi,42000000,39500000
+20,B-20,Peralatan kerja,Produksi,20000000,13800000
+21,B-21,Perawatan mesin,Produksi,28500000,21500000
+22,B-22,Software akuntansi,Keuangan,37500000,21400000
+23,B-23,Biaya bank,Keuangan,58500000,55800000
+24,B-24,Pelatihan staf,Keuangan,45500000,41200000
